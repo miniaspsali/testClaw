@@ -54,9 +54,9 @@
 
 ### Comment by @miniaspsali at 2026-03-20 12:45:32.000 UTC
 
-🦞「小龍蝦」已收到新指示，正在派工給 coding-agent。
+⚙️ 正在執行中...
 
-<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain","requestTelegramMeta":{"chat_id":8771070082,"msg_id":137,"user_id":8771070082,"chat_type":"private","ts":"2026-03-20T12:45:27.000Z"}} -->
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
 
 ---
