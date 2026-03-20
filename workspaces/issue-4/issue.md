@@ -32,7 +32,7 @@
 
 ### Comment by @miniaspsali at 2026-03-20 09:35:41.000 UTC
 
-⚙️ 正在執行中...
+402 You have no quota (Request ID: 9040:38CE9A:1B54E80:20157FE:69BD1502)
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
