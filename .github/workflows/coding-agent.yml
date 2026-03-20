@@ -301,6 +301,7 @@ jobs:
           ISSUE_DIR: ${{ steps.workspace.outputs.issue_dir }}
           RESULT_FILE: ${{ steps.workspace.outputs.result_file }}
           LOG_FILE: ${{ steps.workspace.outputs.log_file }}
+          AGENT_BROWSER_STATE: "auth.json"
         run: |
           set -euo pipefail
 
