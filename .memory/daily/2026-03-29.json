@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-03-29T20:36:55.056Z",
+  "window": {
+    "repository": "miniaspsali/testClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 6,
+    "openIssues": 6,
+    "closedIssues": 0
+  },
+  "topLabels": [
+    {
+      "name": "chat-session",
+      "count": 3
+    }
+  ],
+  "agentFiles": [
+    {
+      "issueNumber": 4,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/4",
+      "title": "新聞記者",
+      "relativePath": "agents/issue-4.json"
+    },
+    {
+      "issueNumber": 6,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/6",
+      "title": "記帳小龍蝦",
+      "relativePath": "agents/issue-6.json"
+    },
+    {
+      "issueNumber": 3,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/3",
+      "title": "Issue #3",
+      "relativePath": "agents/issue-3.json"
+    },
+    {
+      "issueNumber": 5,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/5",
+      "title": "UI 小幫手",
+      "relativePath": "agents/issue-5.json"
+    },
+    {
+      "issueNumber": 2,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/2",
+      "title": "Issue #2",
+      "relativePath": "agents/issue-2.json"
+    },
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "#4 新聞記者：最近沒有新的留言活動。",
+      "#6 記帳小龍蝦：最近沒有新的留言活動。",
+      "#3 Issue #3：最近沒有新的留言活動。",
+      "#5 UI 小幫手：最近沒有新的留言活動。",
+      "#2 Issue #2：最近沒有新的留言活動。"
+    ],
+    "crossIssueThemes": [
+      "#4：目前沒有可確認的偏好設定。",
+      "#6：目前沒有可確認的偏好設定。",
+      "#3：目前沒有可確認的偏好設定。",
+      "#5：目前沒有可確認的偏好設定。",
+      "#2：目前沒有可確認的偏好設定。"
+    ],
+    "decisions": [
+      "#4：目前沒有明確決策。",
+      "#6：目前沒有明確決策。",
+      "#3：目前沒有明確決策。",
+      "#5：目前沒有明確決策。",
+      "#2：目前沒有明確決策。"
+    ],
+    "openLoops": [
+      "#4：請提供今天的世界重點新聞",
+      "#4：請給我今日的國際重點新聞",
+      "#4：請給我今日的國際重點新聞摘要",
+      "#6：請記錄3/20 晚餐 50000元",
+      "#3：目前沒有可確認的未解議題。"
+    ]
+  },
+  "summarySource": "deterministic"
+}
