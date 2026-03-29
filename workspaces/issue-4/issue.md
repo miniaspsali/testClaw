@@ -246,7 +246,7 @@
 
 ### Comment by @miniaspsali at 2026-03-29 23:36:33.000 UTC
 
-🦞「小龍蝦」已收到新指示，正在派工給 coding-agent。
+⚙️ 正在執行中...
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
