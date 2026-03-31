@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T08:57:21.274Z",
+  "generatedAt": "2026-03-31T20:46:52.619Z",
   "window": {
     "repository": "miniaspsali/testClaw",
     "issueState": "all",
@@ -7,17 +7,29 @@
     "sinceDays": 30
   },
   "counts": {
-    "consideredIssues": 5,
-    "openIssues": 5,
+    "consideredIssues": 6,
+    "openIssues": 6,
     "closedIssues": 0
   },
   "topLabels": [
     {
       "name": "chat-session",
-      "count": 2
+      "count": 3
     }
   ],
   "agentFiles": [
+    {
+      "issueNumber": 2,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/2",
+      "title": "記帳小龍蝦",
+      "relativePath": "agents/issue-2.json"
+    },
+    {
+      "issueNumber": 9,
+      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/9",
+      "title": "旅遊規劃超人",
+      "relativePath": "agents/issue-9.json"
+    },
     {
       "issueNumber": 6,
       "issueUrl": "https://github.com/miniaspsali/testClaw/issues/6",
@@ -37,12 +49,6 @@
       "relativePath": "agents/issue-5.json"
     },
     {
-      "issueNumber": 2,
-      "issueUrl": "https://github.com/miniaspsali/testClaw/issues/2",
-      "title": "Issue #2",
-      "relativePath": "agents/issue-2.json"
-    },
-    {
       "issueNumber": 1,
       "issueUrl": "https://github.com/miniaspsali/testClaw/issues/1",
       "title": "Issue #1",
@@ -51,32 +57,32 @@
   ],
   "sections": {
     "agentActivity": [
+      "#2 記帳小龍蝦：最近沒有新的留言活動。",
+      "#9 旅遊規劃超人：最近沒有新的留言活動。",
       "#6 記帳小龍蝦：最近沒有新的留言活動。",
       "#3 Issue #3：最近沒有新的留言活動。",
-      "#5 UI 小幫手：最近沒有新的留言活動。",
-      "#2 Issue #2：最近沒有新的留言活動。",
-      "#1 Issue #1：最近沒有新的留言活動。"
+      "#5 UI 小幫手：最近沒有新的留言活動。"
     ],
     "crossIssueThemes": [
+      "#2：目前沒有可確認的偏好設定。",
+      "#9：目前沒有可確認的偏好設定。",
       "#6：目前沒有可確認的偏好設定。",
       "#3：目前沒有可確認的偏好設定。",
-      "#5：目前沒有可確認的偏好設定。",
-      "#2：目前沒有可確認的偏好設定。",
-      "#1：目前沒有可確認的偏好設定。"
+      "#5：目前沒有可確認的偏好設定。"
     ],
     "decisions": [
+      "#2：目前沒有明確決策。",
+      "#9：目前沒有明確決策。",
       "#6：目前沒有明確決策。",
       "#3：目前沒有明確決策。",
-      "#5：目前沒有明確決策。",
-      "#2：目前沒有明確決策。",
-      "#1：目前沒有明確決策。"
+      "#5：目前沒有明確決策。"
     ],
     "openLoops": [
-      "#6：請記錄3/20 晚餐 50000元",
-      "#3：目前沒有可確認的未解議題。",
-      "#5：幫我生成設計圖我要做一個台灣美食網站，請幫我生成一個簡單的設計圖，包含首頁、菜單頁和聯絡我們頁面。",
-      "#2：目前沒有可確認的未解議題。",
-      "#1：目前沒有可確認的未解議題。"
+      "#2：請記錄我每天的支出，今天支出 1000",
+      "#2：如需新增更多記錄，請告知日期與金額。",
+      "#2：帳本已儲存至 `workspaces/issue-2/ledger.csv`。如需繼續記錄，請直接告訴我日期與金額。",
+      "#9：\"description\": \"請依據旅客需求、旅遊日期、天數、目的地、交通方式..等等需求資料，規劃最適合他們的旅遊行程\"",
+      "#6：請記錄3/20 晚餐 50000元"
     ]
   },
   "summarySource": "deterministic"
