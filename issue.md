@@ -392,3 +392,32 @@
 
 
 ---
+
+### Comment by @miniaspsali at 2026-03-31 23:36:28.000 UTC
+
+⚙️ 正在執行中...
+
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
+
+
+---
+
+### Comment by @miniaspsali at 2026-03-31 23:36:29.000 UTC
+
+🦞「小龍蝦」派工失敗。
+
+- 錯誤：Unexpected inputs provided: ["comment_id", "user_comment_id", "event_source", "event_data"] - https://docs.github.com/rest/actions/workflows#create-a-workflow-dispatch-event
+
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
+
+
+---
+
+### Comment by @miniaspsali at 2026-03-31 23:37:25.000 UTC
+
+此 Issue 為「新聞記者」Bot，Workspace 中無任何支出資料可供回報。
+
+排程觸發的「每天早上 07:30 回報昨天一整天的支出」指令與本 Issue 用途不符，無法執行。若需支出回報功能，請確認是否已指向正確的 Issue 或提供支出資料來源。
+
+
+---
