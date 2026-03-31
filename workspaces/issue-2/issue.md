@@ -32,7 +32,12 @@
 
 ### Comment by @miniaspsali at 2026-03-31 10:42:04.000 UTC
 
-⚙️ 正在執行中...
+已完成記錄。
+
+- 帳本：`workspaces/issue-2/ledger.csv`
+- 記錄：2026-03-20 支出 $1,000
+
+如需新增更多記錄，請告知日期與金額。
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
