@@ -32,9 +32,24 @@
 
 ### Comment by @miniaspsali at 2026-03-31 10:42:04.000 UTC
 
-🦞「小龍蝦」已收到新指示，正在派工給 coding-agent。
+⚙️ 正在執行中...
 
-<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain","requestTelegramMeta":{"chat_id":8771070082,"msg_id":36,"user_id":8771070082,"chat_type":"private","ts":"2026-03-31T10:41:58.000Z"}} -->
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
+
+
+---
+
+### Comment by @miniaspsali at 2026-03-31 10:42:46.000 UTC
+
+已記錄支出。
+
+**📒 記帳記錄（2026-03-20）**
+
+| 日期 | 類型 | 金額 |
+|------|------|------|
+| 2026-03-20 | 支出 | $1,000 |
+
+帳本已儲存至 `workspaces/issue-2/ledger.csv`。如需繼續記錄，請直接告訴我日期與金額。
 
 
 ---
