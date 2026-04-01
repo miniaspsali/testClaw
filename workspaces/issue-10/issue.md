@@ -50,9 +50,9 @@
 
 ### Comment by @miniaspsali at 2026-04-01 03:42:46.000 UTC
 
-「小龍蝦」已經收到新的指示，正在幫忙安排處理中，請稍等一下，事情很快就會有進展。
+很抱歉，這個任務沒有順利完成。請通知開發人員檢查：代理程式結束時未留下任何錯誤說明，原因目前不明。
 
-<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain","requestTelegramMeta":{"chat_id":8771070082,"msg_id":70,"user_id":8771070082,"chat_type":"private","ts":"2026-04-01T03:42:39.000Z"}} -->
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
 
 ---
