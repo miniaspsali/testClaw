@@ -1,8 +1,5 @@
-已完成記錄。
+無法取得最新指令內容。
 
-- 帳本：`workspaces/issue-2/ledger.csv`
-- 記錄：2026-03-20 支出 $1,000
-
-如需新增更多記錄，請告知日期與金額。
+Telegram msg_id 45（2026-04-01）的訊息實際內容未出現在 Issue 中，前次任務（2026-03-20 支出 $1,000）已完成。已於 Issue 留言說明狀況，等待指令補充。
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
