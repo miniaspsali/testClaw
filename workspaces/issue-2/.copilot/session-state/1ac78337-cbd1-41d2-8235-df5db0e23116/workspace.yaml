@@ -1,0 +1,32 @@
+id: 1ac78337-cbd1-41d2-8235-df5db0e23116
+cwd: /home/runner/work/testClaw/testClaw/workspaces/issue-2
+git_root: /home/runner/work/testClaw/testClaw
+repository: miniaspsali/testClaw
+host_type: github
+branch: issue-2
+summary_count: 0
+created_at: 2026-04-01T01:49:56.516Z
+updated_at: 2026-04-01T01:49:59.145Z
+summary: |-
+  # 記帳小龍蝦 Description
+
+  **State:** open
+  **Labels:** chat-session
+  **Created by:** @miniaspsali
+  **Created at:** 2026-03-20 08:26:13.000 UTC
+
+  <!-- telegram-meta: {"chat_id":8771070082,"user_id":8771070082,"username":null,"chat_type":"private","ts":"2026-03-20T08:26:11.544Z"} -->
+
+  ```json
+  {
+    "name": "記帳小龍蝦",
+    "description": "整理日常收支"
+  }
+  ```
+
+
+  ---
+
+  ### Comment by @miniaspsali at 2026-03-20 08:27:21.000 UTC
+
+  <!-- telegram-meta: {"chat_id":8771070082,"msg_id":110,"user_id":8771070082,"username":null,"chat...
