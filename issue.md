@@ -1,5 +1,38 @@
-# Issue #10
+# 網頁 UI 生成器 Description
 
-名稱：網頁 UI 生成器
-描述：請你根據使用者需求生成符合 UX 友善的網頁 UI，每次出圖皆須提供兩種格式桌機版、手機版
-skills：無
+**State:** open
+**Labels:** None
+**Created by:** @miniaspsali
+**Created at:** 2026-04-01 03:38:27.000 UTC
+
+<!-- telegram-meta: {"chat_id":8771070082,"user_id":8771070082,"username":null,"chat_type":"private","ts":"2026-04-01T03:38:26.785Z"} -->
+
+```json
+{
+  "name": "網頁 UI 生成器",
+  "description": "請你根據使用者需求生成符合 UX 友善的網頁 UI，每次出圖皆須提供兩種格式桌機版、手機版"
+}
+```
+
+
+---
+
+### Comment by @miniaspsali at 2026-04-01 03:42:02.000 UTC
+
+🛠 技能 **google-stitch** 已安裝完成。
+
+
+---
+
+### Comment by @miniaspsali at 2026-04-01 03:42:41.000 UTC
+
+<!-- telegram-meta: {"chat_id":8771070082,"msg_id":70,"user_id":8771070082,"username":null,"chat_type":"private","ts":"2026-04-01T03:42:39.000Z"} -->
+
+**來自：** Sali · private
+
+---
+
+請提供台灣花蓮太魯閣現況介紹的網頁 UI
+
+
+---
