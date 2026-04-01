@@ -1,0 +1,62 @@
+2026-04-01T03:48:11.453Z [INFO] Workspace initialized: 3a0ea5fc-cf24-47ee-8450-8247e1f3f5c9 (checkpoints: 0)
+2026-04-01T03:48:11.785Z [INFO] Starting Copilot CLI: 1.0.14
+2026-04-01T03:48:11.785Z [INFO] Node.js version: v24.11.1
+2026-04-01T03:48:12.455Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.business.githubcopilot.com/mcp/readonly
+2026-04-01T03:48:12.455Z [ERROR] Creating MCP client for github-mcp-server...
+2026-04-01T03:48:12.456Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-04-01T03:48:12.655Z [ERROR] MCP client for github-mcp-server connected, took 199ms
+2026-04-01T03:48:12.656Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-04-01T03:48:12.657Z [ERROR] GitHub MCP server configured after authentication
+2026-04-01T03:48:13.125Z [INFO] Memory enablement check: enabled
+2026-04-01T03:48:13.288Z [INFO] Memory enablement check: enabled
+2026-04-01T03:48:13.737Z [INFO] Memory enablement check: enabled
+2026-04-01T03:48:13.958Z [INFO]  
+2026-04-01T03:48:13.958Z [INFO] --- Start of group: configured settings: ---
+2026-04-01T03:48:13.958Z [INFO] --- End of group ---
+2026-04-01T03:48:14.188Z [INFO]  
+2026-04-01T03:48:14.188Z [INFO] --- Start of group: configured settings: ---
+2026-04-01T03:48:14.188Z [INFO] --- End of group ---
+2026-04-01T03:48:14.190Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-04-01T03:48:14.191Z [INFO] --- End of group ---
+2026-04-01T03:48:14.738Z [INFO] CompactionProcessor: Utilization 9.2% (24972/272000 tokens) below threshold 80%
+2026-04-01T03:48:14.863Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:18.369Z [INFO] --- End of group ---
+2026-04-01T03:48:18.681Z [INFO] CompactionProcessor: Utilization 9.3% (25269/272000 tokens) below threshold 80%
+2026-04-01T03:48:18.799Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:21.224Z [INFO] --- End of group ---
+2026-04-01T03:48:21.324Z [INFO] CompactionProcessor: Utilization 10.9% (29603/272000 tokens) below threshold 80%
+2026-04-01T03:48:21.487Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:24.620Z [INFO] --- End of group ---
+2026-04-01T03:48:24.723Z [INFO] CompactionProcessor: Utilization 10.9% (29662/272000 tokens) below threshold 80%
+2026-04-01T03:48:24.893Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:27.009Z [INFO] --- End of group ---
+2026-04-01T03:48:27.100Z [INFO] CompactionProcessor: Utilization 11.0% (29956/272000 tokens) below threshold 80%
+2026-04-01T03:48:27.277Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:30.247Z [INFO] --- End of group ---
+2026-04-01T03:48:30.953Z [INFO] CompactionProcessor: Utilization 12.6% (34372/272000 tokens) below threshold 80%
+2026-04-01T03:48:31.133Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:35.083Z [INFO] --- End of group ---
+2026-04-01T03:48:35.177Z [INFO] CompactionProcessor: Utilization 12.7% (34433/272000 tokens) below threshold 80%
+2026-04-01T03:48:35.358Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:37.277Z [INFO] --- End of group ---
+2026-04-01T03:48:38.087Z [INFO] CompactionProcessor: Utilization 12.9% (35021/272000 tokens) below threshold 80%
+2026-04-01T03:48:38.269Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:40.316Z [INFO] --- End of group ---
+2026-04-01T03:48:40.409Z [INFO] CompactionProcessor: Utilization 12.9% (35087/272000 tokens) below threshold 80%
+2026-04-01T03:48:40.591Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:48:43.771Z [INFO] --- End of group ---
+2026-04-01T03:49:14.090Z [INFO] CompactionProcessor: Utilization 13.0% (35482/272000 tokens) below threshold 80%
+2026-04-01T03:49:14.281Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:49:17.435Z [INFO] --- End of group ---
+2026-04-01T03:49:27.539Z [INFO] CompactionProcessor: Utilization 13.1% (35658/272000 tokens) below threshold 80%
+2026-04-01T03:49:27.733Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:49:29.475Z [INFO] --- End of group ---
+2026-04-01T03:49:29.575Z [INFO] CompactionProcessor: Utilization 13.1% (35727/272000 tokens) below threshold 80%
+2026-04-01T03:49:29.768Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:49:31.679Z [INFO] --- End of group ---
+2026-04-01T03:49:31.776Z [INFO] CompactionProcessor: Utilization 13.2% (35788/272000 tokens) below threshold 80%
+2026-04-01T03:49:31.968Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:49:34.688Z [INFO] --- End of group ---
+2026-04-01T03:49:35.608Z [INFO] CompactionProcessor: Utilization 13.4% (36367/272000 tokens) below threshold 80%
+2026-04-01T03:49:35.806Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:49:37.205Z [INFO] --- End of group ---
