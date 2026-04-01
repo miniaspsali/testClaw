@@ -85,7 +85,9 @@ Telegram msg_id 45（2026-04-01）的訊息實際內容未出現在 Issue 中，
 
 ### Comment by @miniaspsali at 2026-04-01 01:49:40.000 UTC
 
-⚙️ 正在執行中...
+msg_id 51（2026-04-01 01:49）的 Telegram 訊息內容未出現在 Issue 中，無法取得新指令。
+
+已於 Issue 留言說明現況。目前帳本（`workspaces/issue-2/ledger.csv`）僅有 2026-03-20 支出 $1,000 的記錄。請補充 msg_id 51 的訊息內容，或直接在 Issue 留言新的記帳指令。
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
