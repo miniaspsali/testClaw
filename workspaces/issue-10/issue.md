@@ -56,3 +56,17 @@
 
 
 ---
+
+### Comment by @miniaspsali at 2026-04-01 03:47:52.000 UTC
+
+<!-- telegram-meta: {"chat_id":8771070082,"msg_id":72,"user_id":8771070082,"username":null,"chat_type":"private","ts":"2026-04-01T03:47:49.000Z"} -->
+
+**來自：** Sali · private
+
+---
+
+請你使用這個 github repo 生成小龍蝦
+https://github.com/miniaspsali/v4
+
+
+---
