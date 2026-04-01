@@ -61,7 +61,9 @@
 
 ### Comment by @miniaspsali at 2026-04-01 01:36:20.000 UTC
 
-⚙️ 正在執行中...
+無法取得最新指令內容。
+
+Telegram msg_id 45（2026-04-01）的訊息實際內容未出現在 Issue 中，前次任務（2026-03-20 支出 $1,000）已完成。已於 Issue 留言說明狀況，等待指令補充。
 
 <!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
 
