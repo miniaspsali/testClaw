@@ -1,0 +1,68 @@
+2026-04-01T03:43:00.514Z [INFO] Starting Copilot CLI: 1.0.14
+2026-04-01T03:43:00.514Z [INFO] Node.js version: v24.11.1
+2026-04-01T03:43:00.524Z [INFO] Workspace initialized: 3a0ea5fc-cf24-47ee-8450-8247e1f3f5c9 (checkpoints: 0)
+2026-04-01T03:43:00.845Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.business.githubcopilot.com/mcp/readonly
+2026-04-01T03:43:00.845Z [ERROR] Creating MCP client for github-mcp-server...
+2026-04-01T03:43:00.846Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-04-01T03:43:01.216Z [ERROR] MCP client for github-mcp-server connected, took 370ms
+2026-04-01T03:43:01.217Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-04-01T03:43:01.217Z [ERROR] GitHub MCP server configured after authentication
+2026-04-01T03:43:01.578Z [INFO] Memory enablement check: enabled
+2026-04-01T03:43:01.618Z [INFO] Memory enablement check: enabled
+2026-04-01T03:43:02.098Z [INFO] Memory enablement check: enabled
+2026-04-01T03:43:02.335Z [INFO]  
+2026-04-01T03:43:02.335Z [INFO] --- Start of group: configured settings: ---
+2026-04-01T03:43:02.335Z [INFO] --- End of group ---
+2026-04-01T03:43:02.599Z [INFO]  
+2026-04-01T03:43:02.599Z [INFO] --- Start of group: configured settings: ---
+2026-04-01T03:43:02.599Z [INFO] --- End of group ---
+2026-04-01T03:43:02.600Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-04-01T03:43:02.601Z [INFO] --- End of group ---
+2026-04-01T03:43:03.176Z [INFO] CompactionProcessor: Utilization 8.1% (22075/272000 tokens) below threshold 80%
+2026-04-01T03:43:03.278Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:43:06.334Z [INFO] --- End of group ---
+2026-04-01T03:43:06.397Z [INFO] CompactionProcessor: Utilization 8.6% (23419/272000 tokens) below threshold 80%
+2026-04-01T03:43:06.502Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:43:08.682Z [INFO] --- End of group ---
+2026-04-01T03:43:08.800Z [INFO] CompactionProcessor: Utilization 9.3% (25217/272000 tokens) below threshold 80%
+2026-04-01T03:43:08.924Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:43:12.287Z [INFO] --- End of group ---
+2026-04-01T03:43:12.949Z [INFO] CompactionProcessor: Utilization 9.3% (25432/272000 tokens) below threshold 80%
+2026-04-01T03:43:13.079Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:43:15.662Z [INFO] --- End of group ---
+2026-04-01T03:43:16.643Z [INFO] CompactionProcessor: Utilization 9.6% (26123/272000 tokens) below threshold 80%
+2026-04-01T03:43:16.768Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-01T03:43:21.368Z [ERROR] error (Request-ID 9C01:CE820:2E43BA2:3469FBF:69CC9453)
+2026-04-01T03:43:21.369Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-833a9ff3-acf0-4a63-94f8-a48ee9b41c9c",
+  "error": {
+    "message": "Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+    "code": "invalid_request_body"
+  },
+  "code": "invalid_request_body",
+  "request_id": "00000-833a9ff3-acf0-4a63-94f8-a48ee9b41c9c",
+  "ghRequestId": "9C01:CE820:2E43BA2:3469FBF:69CC9453",
+  "name": "CAPIError",
+  "message": "400 Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+  "stack": "CAPIError: 400 Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2063:992)\n    at hlt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2063:11336)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async R5e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2075:2730)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:40114)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:5787)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:896)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2492:4033)\n    at async bDi (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:5123:2177)\n    at async j0t (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:5085:544)"
+}
+2026-04-01T03:43:21.370Z [ERROR] Retry after is not set. Giving up.
+2026-04-01T03:43:21.370Z [ERROR] error
+2026-04-01T03:43:21.370Z [ERROR] {
+  "status": 400,
+  "headers": {},
+  "requestID": "00000-833a9ff3-acf0-4a63-94f8-a48ee9b41c9c",
+  "error": {
+    "message": "Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+    "code": "invalid_request_body"
+  },
+  "code": "invalid_request_body",
+  "request_id": "00000-833a9ff3-acf0-4a63-94f8-a48ee9b41c9c",
+  "ghRequestId": "9C01:CE820:2E43BA2:3469FBF:69CC9453",
+  "name": "CAPIError",
+  "message": "400 Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting",
+  "stack": "CAPIError: 400 Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2063:992)\n    at hlt.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2063:11336)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async R5e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2075:2730)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:40114)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:5787)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2494:896)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:2492:4033)\n    at async bDi (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:5123:2177)\n    at async j0t (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.14/app.js:5085:544)"
+}
+2026-04-01T03:43:21.370Z [INFO] --- End of group ---
