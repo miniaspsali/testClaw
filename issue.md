@@ -61,9 +61,22 @@
 
 ### Comment by @miniaspsali at 2026-04-01 01:36:20.000 UTC
 
-🦞「小龍蝦」已收到新指示，正在派工給 coding-agent。
+⚙️ 正在執行中...
 
-<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain","requestTelegramMeta":{"chat_id":8771070082,"msg_id":45,"user_id":8771070082,"chat_type":"private","ts":"2026-04-01T01:36:14.000Z"}} -->
+<!-- githubclaw-brain-result: {"source":"githubclaw-worker-brain"} -->
+
+
+---
+
+### Comment by @miniaspsali at 2026-04-01 01:37:27.000 UTC
+
+無法取得最新指令內容。
+
+系統回報（2026-04-01 01:36）顯示已收到 Telegram msg_id 45 的新指示並派工，但該訊息的實際內容未出現在 Issue 留言串中，無法判斷任務為何。
+
+前次任務狀態：已完成（2026-03-20 支出 $1,000 已記錄於 `workspaces/issue-2/ledger.csv`）。
+
+請確認 msg_id 45 的訊息內容是否已同步至 Issue，或直接告知新的記帳指令。
 
 
 ---
