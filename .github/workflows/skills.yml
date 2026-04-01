@@ -94,77 +94,36 @@ jobs:
           fi
           echo "SKILL_SOURCE_DIR=.tmp/skills-source/skills/${SKILL_NAME}" >> "$GITHUB_ENV"
 
-      # ── Step 4: 讀取技能 frontmatter ──────────────────────────────
-      - name: 讀取技能 frontmatter
+      # ── Step 4: 讀取技能 githubclaw.json ────────────────────────────
+      - name: 讀取技能 githubclaw.json
         if: env.INSTALL_FAILED != 'true'
         shell: bash
         run: |
           set -euo pipefail
 
-          SKILL_MD="${SKILL_SOURCE_DIR}/SKILL.md"
-          if [[ ! -f "$SKILL_MD" ]]; then
-            echo "No SKILL.md found, skipping env configuration"
+          MANIFEST="${SKILL_SOURCE_DIR}/githubclaw.json"
+          if [[ ! -f "$MANIFEST" ]]; then
+            echo "No githubclaw.json found, skipping env configuration"
             echo "REQUIRED_ENVS=" >> "$GITHUB_ENV"
             exit 0
           fi
 
-          extract_frontmatter() {
-            awk '
-              NR == 1 {
-                if ($0 ~ /^---[[:space:]]*$/) {
-                  in_frontmatter = 1
-                  next
-                }
-                exit
-              }
-              in_frontmatter && $0 ~ /^---[[:space:]]*$/ { exit }
-              in_frontmatter { print }
-            ' "$1"
-          }
-
-          extract_frontmatter_list() {
-            local key="$1"
-            printf '%s\n' "$FRONTMATTER" | awk -v key="$key" '
-              $0 ~ ("^" key ":[[:space:]]*$") { in_section = 1; next }
-              in_section && $0 ~ /^[^[:space:]][^:]*:/ { exit }
-              in_section && ($0 ~ /^[[:space:]]*$/ || $0 ~ /^[[:space:]]*#/) { next }
-              in_section && $0 ~ /^[[:space:]]*-[[:space:]]*/ {
-                line = $0
-                sub(/^[[:space:]]*-[[:space:]]*/, "", line)
-                print line
-                next
-              }
-              in_section && $0 ~ /^[^[:space:]]/ { exit }
-            '
-          }
-
-          # 只讀取檔案最上方的第一個 frontmatter，避免把 Markdown 內容中的 --- 區塊誤判進來。
-          FRONTMATTER=$(extract_frontmatter "$SKILL_MD")
-
-          # 擷取 required_env 清單，轉成逗號分隔字串
-          ENVS=$(extract_frontmatter_list required_env | head -20 | tr -d '[:space:]' | paste -sd ',' -)
+          # 從 githubclaw.json 的 requireEnv 陣列擷取環境變數，轉成逗號分隔字串
+          ENVS=$(node -e "
+            const fs = require('fs');
+            const manifest = JSON.parse(fs.readFileSync('${MANIFEST}', 'utf8'));
+            const envs = Array.isArray(manifest.requireEnv)
+              ? manifest.requireEnv.filter(e => typeof e === 'string' && e.trim()).map(e => e.trim())
+              : [];
+            if (envs.length) console.log(envs.join(','));
+          ")
 
           if [[ -z "$ENVS" ]]; then
-            echo "No required_env declared"
+            echo "No requireEnv declared"
             echo "REQUIRED_ENVS=" >> "$GITHUB_ENV"
           else
             echo "Required env vars: $ENVS"
             echo "REQUIRED_ENVS=${ENVS}" >> "$GITHUB_ENV"
-          fi
-
-          # 檢查 required_secrets 並記錄警告
-          WARNINGS=""
-          REQUIRED_SECRETS=$(extract_frontmatter_list required_secrets | head -20 || true)
-          for secret in $REQUIRED_SECRETS; do
-            secret=$(echo "$secret" | tr -d '[:space:]')
-            [[ -z "$secret" ]] && continue
-            WARNINGS="${WARNINGS}\n⚠️ 請確認已設定 Secret: ${secret}"
-          done
-
-          if [[ -n "$WARNINGS" ]]; then
-            echo "INSTALL_WARNINGS<<EOF" >> "$GITHUB_ENV"
-            echo -e "$WARNINGS" >> "$GITHUB_ENV"
-            echo "EOF" >> "$GITHUB_ENV"
           fi
 
       # ── Step 5: 切換到 issue 分支並安裝技能檔案 ────────────────────
@@ -294,7 +253,7 @@ jobs:
           while [[ "${ATTEMPT}" -le "${MAX_ATTEMPTS}" ]]; do
             echo "Running Copilot CLI attempt ${ATTEMPT}/${MAX_ATTEMPTS}..."
             set +e
-            timeout 5m npx -y @github/copilot -p "$PROMPT_CONTENT" --yolo --model claude-sonnet-4.5
+            timeout 5m npx -y @github/copilot@${{ vars.COPILOT_CLI_VERSION || '1.0.14' }} -p "$PROMPT_CONTENT" --yolo --model gpt-5.4-mini
             COPILOT_EXIT=$?
             set -e
 
@@ -371,3 +330,4 @@ jobs:
             echo "::error::技能安裝失敗: ${INSTALL_ERROR:-未知錯誤}"
             exit 1
           fi
+

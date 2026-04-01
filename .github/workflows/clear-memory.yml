@@ -43,6 +43,9 @@ jobs:
             .copilot/logs \
             .copilot/ide/*.lock \
             .copilot/command-history-state.json \
+            .copilot/session-store.db \
+            .copilot/session-store.db-shm \
+            .copilot/session-store.db-wal \
             .codex/sessions \
             .codex/history.jsonl \
             .codex/state_*.sqlite \
